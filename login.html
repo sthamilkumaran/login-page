@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1 class="heading">Welcome</h1>
+        <div class="mail-field">
+            <input type="email" placeholder="Enter Your Email" required>
+            <i class="fa-solid fa-text"></i>
+        </div>
+        <br>
+        <div class="pass-field">
+            <input type="password" placeholder="Create Password">
+            <i class="fa-solid fa-eye"></i>
+        </div>
+        <div class="content">
+            <p>Password most contains</p>
+            <ul class="requirement-list">
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 8 characters length</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 number (0.....9)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 lowercase letter (a.....y)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 special symbol (!....$)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 uppercase letter (A....Y)</span>
+                </li>
+            </ul>
+        </div>
+        <button class="btn" style="vertical-align:middle" type="submit">
+            <span>Sign In</span>
+        </button>
+    </form>
+    </div>
+</body>
+<script src="./login.js" defer></script>
+</html>
